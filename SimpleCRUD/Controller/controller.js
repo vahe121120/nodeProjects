@@ -4,11 +4,11 @@ import repo from "../Repository/repository.js";
 
 const app = express();
 const PORT = 8001;
-const DB_URL = 27017;
+const DB_URL = "mongodb://localhost:27017";
 
 app.use(express.json());
 
-mongoose.connect("mongodb://localhost:" + DB_URL);
+mongoose.connect(DB_URL);
 
 app.get('/', (req, res) => {
     res.json("Connected successfully");
