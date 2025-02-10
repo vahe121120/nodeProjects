@@ -1,0 +1,28 @@
+{
+  "name": "nodeprojects",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon Controller/controller.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vahe121120/nodeProjects.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vahe121120/nodeProjects/issues"
+  },
+  "homepage": "https://github.com/vahe121120/nodeProjects#readme",
+  "description": "",
+  "devDependencies": {
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  },
+  "type": "module",
+  "dependencies": {
+    "mongoose": "^8.10.0"
+  }
+}
